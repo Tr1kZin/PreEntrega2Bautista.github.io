@@ -1,0 +1,509 @@
+*::after,
+*::before,
+
+
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+/* COMIENZO SECCION 1 */
+.main{
+    width: 100%;
+   
+
+}
+.contenedor-1{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../imagenes-logos/pexels-pixabay-220182.jpg);
+    background-position: center;
+
+}
+.cabecera{
+   
+    background-color:beige;
+    overflow: hidden;
+    width: 100%;
+    height: 100px;
+    display: flex;
+}
+.logo{
+    padding-left: 50px;
+    width: 20%;
+   display: flex;
+   justify-content: start;
+   box-sizing: border-box;
+   
+    
+
+}
+
+.navegacion{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+    padding-right: 100px;
+
+
+}
+.link{
+    
+    color: black;
+    padding: 70px 30px;
+    text-decoration: none;
+    font-size: 20px;
+
+}
+.link:hover{
+    background-color: coral;
+    color:#fff;
+
+}
+.banner{
+    width: 100%;
+    height: calc(100vh - 100px);
+    display: flex;
+    justify-content: start;
+    align-items: center;
+   
+}
+.banner__textos{
+    
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 50px;
+
+
+}
+.banner__textos h1 {
+    font-size: 60px;
+
+}
+
+.banner__textos p{
+    font-size: 36px;
+    margin: 20px 0 30px 0;
+
+}
+
+.banner__textos a{
+    background-color: coral;
+    padding: 20px 0 ;
+    width: 50%;
+    text-align: center;
+    text-decoration: none;
+    font-size: 24px;
+    color: #fff;
+    border-radius: 40px;
+
+}
+.banner__textos a:hover{
+    background-color:#fff ;
+    color: coral;
+}
+
+/* FIN SECCION 1 */
+
+
+/* Comienzo Seccion 2 */
+ .contenedor-2{
+    width: 100%;
+    height: 80vh;
+    background-color: #f6eedf;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #f64b3c;
+
+
+ }
+.text{
+
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.text h2{
+    font-size: 36px;
+
+
+}
+.text p{
+    margin: 40px;
+    font-size: 20px;
+
+
+}
+
+.fotos{
+    
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 50px;
+
+
+}
+.fotos__img{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+
+}
+.fotos__img h3 {
+    margin: 10px 0 ;
+    font-size: 20px;
+
+
+}
+.fotos__img p {
+    font-size: 10px;
+
+
+}
+.fotos__img img{
+border-radius: 40%;
+
+
+}
+/* FIN SECCION 2 */
+
+
+
+/* COMIENZO SECCION 3 ULTIMA */
+ .contenedor-3{
+    background-color: #222222;
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+
+
+
+ }
+ .footer-text{
+    
+    width: 90%;
+    height: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+
+ }
+ .box1 {
+    
+    width: 40%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    padding-right: 50px;
+
+ }
+
+ .box2 , .box3, .box4{
+   
+    width: 20%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    padding-right: 50px;
+
+
+ }
+ .box1 h3, .box2 h3 ,.box3 h3 , .box4 h3{
+    font-size: 28px;
+    margin: 25px 0;
+
+
+
+ }
+ .box1 p{
+    font-size: 20px;
+
+ }
+ .box2 a, .box3 a, .box4 a{
+    text-decoration: none;
+    color: #fff ;
+    margin: 5px 0;
+    font-size: 20px;
+
+
+ }
+
+
+
+ .rs{
+    
+    width: 100%;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    margin: 25px 0;
+
+
+ }
+ .rs img{
+    object-fit: cover;
+    height: 85%;
+    margin-right: 15px;
+    
+ }
+ 
+
+ .pie{
+   
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #3c3c3c;
+
+ }
+ .pie p{
+    font-size: 18px;
+ }
+ .pie a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+ }
+
+    /* Comienzo Tienda */
+
+    .fotoItems{
+        width: 40px;
+        max-width: 100%;
+    
+
+    }
+    /* INFO ITEMS COMIENZO */
+    
+
+ 
+ .infoKata{
+    position: absolute;
+    right: 700px;
+    top: 680px;
+    left: 250px;
+    font-family: Arial, Helvetica, sans-serif;
+
+ }
+ .infoKayn{
+    position: absolute;
+    right: 700px;
+    top: 900px;
+    left: 250px;
+    font-family: Arial, Helvetica, sans-serif;
+
+
+ }
+ .infoGaren{
+    position: absolute;
+    right:650px ;
+    top: 1070px;
+    left: 320px;
+    font-family: Arial, Helvetica, sans-serif;
+
+ }
+ .infoTeemo{
+    position: absolute;
+    right: 650px;
+    top: 1300px;
+    left: 350px;
+    font-family: Arial, Helvetica, sans-serif;
+ }
+
+ .sp{
+    background-color: coral;
+    padding: 10px 0 ;
+    width: 50%;
+    text-align: center;
+    text-decoration: none;
+    font-size: 24px;
+    color: #fff;
+    border-radius: 40px;
+    position: absolute;
+    right: 350px;
+ }
+
+
+
+
+.infoDarius{
+    position: absolute;
+    right: 700px;
+    top: 640px;
+    left: 280px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
+.infoYasuo{
+    position: sticky;
+    right: 700px;
+    top: 880px;
+    left:290px ;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.infoVarus{
+    position: sticky ;
+    right: 700px;
+    top: 1200px;
+    left: 290px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.infoLux{
+    position: absolute;
+    right: 790px;
+    top: 1400px;
+    left: 290px;
+}
+
+
+/*Registro */
+
+.body2{
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-position: center;
+    background-image: url(https://img.freepik.com/vector-gratis/fondo-monocromatico-blanco-estilo-papel_52683-66443.jpg?w=2000);
+    font-family: sans-serif;
+}
+
+.loginbox{
+    width: 320px;
+    height: 420px;
+    background: #000;
+    
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50% , -50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+
+
+}
+
+.avatar{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    position: absolute;
+    top: 10%;
+    left: calc(50% - 50px);
+
+
+
+}
+
+
+.loginh{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-size: 22px;
+    position: absolute;
+    top: 20px;
+}
+
+
+
+
+.loginbox p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+
+
+
+
+}
+
+
+
+.loginbox input{
+    width: 100%;
+    margin-bottom: 20px;
+
+
+
+
+}
+.loginbox input[type = "text"], input [type = "password" ] {
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+}
+
+.loginbox input [type = "sumbit"] {
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #08b0ce;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+
+}
+
+
+.loginbox input [type = "sumbit"] :hover{
+    cursor: pointer;
+    background: #fff;
+    color: #000;
+
+
+
+}
+
+
+.loginbox a{
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 20px;
+    color: darkgrey;
+
+
+}
+
+.loginbox a :hover{
+    color: #fff;
+    
+
+
+}
