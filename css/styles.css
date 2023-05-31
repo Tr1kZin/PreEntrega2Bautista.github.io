@@ -387,123 +387,81 @@ border-radius: 40%;
     left: 290px;
 }
 
-
-/*Registro */
-
-.body2{
-    margin: 0;
-    padding: 0;
-    background-size: cover;
-    background-position: center;
-    background-image: url(https://img.freepik.com/vector-gratis/fondo-monocromatico-blanco-estilo-papel_52683-66443.jpg?w=2000);
-    font-family: sans-serif;
-}
-
-.loginbox{
-    width: 320px;
-    height: 420px;
-    background: #000;
-    
-    color: #fff;
-    top: 50%;
-    left: 50%;
-    position: absolute;
-    transform: translate(-50% , -50%);
-    box-sizing: border-box;
-    padding: 70px 30px;
-
-
-}
-
-.avatar{
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    position: absolute;
-    top: 10%;
-    left: calc(50% - 50px);
-
-
-
-}
-
-
-.loginh{
-    margin: 0;
-    padding: 0;
+/* pagina contacto  */
+.formulario-titulo{
+    font-size: 25px;
+    margin: 25px auto;
     text-align: center;
-    font-size: 22px;
-    position: absolute;
-    top: 20px;
 }
 
 
-
-
-.loginbox p{
-    margin: 0;
-    padding: 0;
-    font-weight: bold;
-
-
-
-
-}
-
-
-
-.loginbox input{
+.contacto{
     width: 100%;
-    margin-bottom: 20px;
-
-
-
-
-}
-.loginbox input[type = "text"], input [type = "password" ] {
-    border: none;
-    border-bottom: 1px solid #fff;
-    background: transparent;
-    outline: none;
-    height: 40px;
-    color: #fff;
-    font-size: 16px;
-}
-
-.loginbox input [type = "sumbit"] {
-    border: none;
-    outline: none;
-    height: 40px;
-    background: #08b0ce;
-    color: #fff;
-    font-size: 18px;
-    border-radius: 20px;
-
-}
-
-
-.loginbox input [type = "sumbit"] :hover{
-    cursor: pointer;
-    background: #fff;
-    color: #000;
-
-
-
-}
-
-
-.loginbox a{
-    text-decoration: none;
-    font-size: 12px;
-    line-height: 20px;
-    color: darkgrey;
-
-
-}
-
-.loginbox a :hover{
-    color: #fff;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
     
 
+}.formulario{
+    position: absolute;
+    bottom: 10px;
+    border-radius: 5px;
+    width: 30%;
+    padding: 40px;
+}
+.text1  {
+    width: 96%;
+    height: 45px;
+    margin: 9px auto;
+    padding: 5px;
+    outline: none;
+}
+
+.text2{
+    width: 96%;
+    height: 45px;
+    margin: 9px auto;
+    padding: 5px;
+    outline: none;
 
 }
+
+
+.form{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+
+}
+
+.text3{
+    width: 95%;
+    height: 45px;
+    margin: 7px auto;
+    grid-column: 1/3;
+    outline: none;
+}
+.textarea{
+    width: 99%;
+    height: 100px;
+    margin: 8px auto;
+    grid-column: 1/3;
+    outline: none;
+    resize: none;
+
+}
+.sumbit{
+    width: 30%;
+    height: 45px;
+    margin: 8px auto;
+    grid-column: 1/3;
+    
+
+}
+
+
+
